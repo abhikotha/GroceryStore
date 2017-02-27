@@ -21,11 +21,10 @@ AppData folder has 3 csf file for maintain regular, sale, additional product dis
      Qty // product qty 
      Amount // group product amount, like 3 apple in 2$
     
-    
- we are using 2 promotions one is discount on additional product and second group prmotional
+ # General   
+     we are using 2 promotions one is discount on additional product and second group prmotional
  
- if we have discount in both for cart product then we will apply benefitial discount on product. if somewhere we should apply both 
- discount then we are appling it.
+     if we have discount in both for cart product then we will apply benefitial discount on product. if somewhere we should apply both discount then we are appling it.
  
  
  # Enhancements.
