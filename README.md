@@ -28,3 +28,12 @@ AppData folder has 3 csf file for maintain regular, sale, additional product dis
 # Enhancements
    As it was develop in short time so we can enhance in arhitecture and need to refine code for addition discount types.
     
+# Steps
+  listed producst will show on screen, you need to enter product name for add, product name are case sensitive
+  
+  1. Enter product name like  Apple
+  2. Enter quantity like 2
+  3. Enter more product like Orange and then quantity
+  4. press 2 time enter key for show print receipt
+  
+  
