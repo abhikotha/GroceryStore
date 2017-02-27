@@ -36,7 +36,7 @@ namespace GroceryStorePOS
             CaculateCartPrice(); // caclulate product price
 
             PrintReceipt(); // print receipt
-
+             
             Console.ReadLine();
         }
         static void ShowProducts()
