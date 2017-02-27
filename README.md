@@ -26,5 +26,5 @@ AppData folder has 3 csf file for maintain regular, sale, additional product dis
      if somewhere we should apply both discount then we are appling it.
 
 # Enhancements
-    As it was develop in short time so we can enhance in arhitecture and need to refine code for addition discount types.
+   As it was develop in short time so we can enhance in arhitecture and need to refine code for addition discount types.
     
