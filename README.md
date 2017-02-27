@@ -16,10 +16,10 @@ AppData folder has 3 csf file for maintain regular, sale, additional product dis
     IsActive // true or false , letter we can use start date and end date for get active discounts
     
  # GroupPromotionalPrice.csv
-    ID // Primary key
-    ProductId // foreign key of product
-    Qty // product qty 
-    Amount // group product amount, like 3 apple in 2$
+     ID // Primary key
+     ProductId // foreign key of product
+     Qty // product qty 
+     Amount // group product amount, like 3 apple in 2$
     
     
  we are using 2 promotions one is discount on additional product and second group prmotional
