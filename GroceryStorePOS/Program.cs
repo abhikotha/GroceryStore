@@ -26,6 +26,10 @@ namespace GroceryStorePOS
         static bool flag = true;
         static void Main(string[] args)
         {
+            Console.WriteLine("Press double time Enter key  after adding product and quantities.");
+            Console.WriteLine();
+            //print products coma seperated
+            ShowProducts();
 
             AddProduct(); // Add product to cart
 
@@ -35,7 +39,11 @@ namespace GroceryStorePOS
 
             Console.ReadLine();
         }
-        
+        static void ShowProducts()
+        {
+            Console.WriteLine("Products: " + string.Join(",", productPriceCatalog.GetAllProducts()));
+            Console.WriteLine();
+        }
         /// <summary>
         /// calculate and update cart with amount
         /// </summary>

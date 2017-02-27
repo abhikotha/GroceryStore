@@ -47,6 +47,22 @@ namespace GroceryStorePOS
             return null;
 
         }
+        public List<string> GetAllProducts()
+        {
+            var products = new List<string>();
+            StreamReader reader = new StreamReader(File.OpenRead(Directory.GetCurrentDirectory().Replace("\\bin\\Debug", "") + "/App_Data/Product.csv"));
+            while (!reader.EndOfStream)
+            {
+                var line = reader.ReadLine();
+                var values = line.Split(',');
+
+                if (values[0].ToLower() != "id")
+                {
+                    products.Add(values[1]);
+                }
+            }
+            return products;
+        }
         private List<AdditionalProductDiscountModel> GetAllAdditionalProductDiscount()
         {
             var lstAdditionalProductDiscounts = new List<AdditionalProductDiscountModel>();
